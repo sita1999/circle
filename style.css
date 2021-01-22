@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.circle {
+    width: 306px;
+    height: 306px;
+    border-radius: 153px;
+    overflow:hidden;
+  
+    background-image: repeating-linear-gradient(180deg,red,red 34px,black 34px,black 68px);
+}
